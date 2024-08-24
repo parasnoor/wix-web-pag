@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+body {
+  background-image: url(car\ image.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+a {
+  text-decoration: none;
+
+  font-weight: 400;
+  color: rgba(128, 128, 128, 0.672);
+}
+a:hover {
+  color: rgba(255, 0, 0, 0.491);
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.width {
+  width: 700px;
+}
+.heading2 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: lighter;
+}
+p {
+  font-size: large;
+  text-align: center;
+  width: 700px;
+  word-spacing: 10px;
+  margin-top: 20px;
+}
+@media only screen and (max-width:768px) {
+  a{
+    display: none;
+  }
+  button{
+    width: 70px;
+    padding: 5px;
+  }
+  .heading2{
+    font-size: 25px;
+  }
+  p{
+    font-size: medium;
+    text-align: center;
+    width: 300px;
+  }
+  h2{
+    font-size:20px;
+  }
+}
